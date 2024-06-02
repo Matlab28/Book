@@ -13,8 +13,8 @@ public class EmailService {
     public String sendEmail(String sub, String text) {
         SimpleMailMessage message = new SimpleMailMessage();
 
-        message.setFrom("metleb.abbaszade@gmail.com");
-        message.setTo("callofduty.matlab@gmail.com");
+        message.setFrom("YOUR_EMAIL");
+        message.setTo("YOUR_EMAIL");
         message.setSubject(sub);
         message.setText(text);
 
